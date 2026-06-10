@@ -1,0 +1,44 @@
+# OctoFit Tracker Frontend
+
+> Modern React 19 application built with Vite
+
+## Quick Commands
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server (http://localhost:3000)
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Lint code
+npm run lint
+```
+
+## Project Stack
+
+- **React 19** - Latest React with modern features
+- **Vite 5** - Next generation build tool
+- **CSS 3** - Modern styling
+- **Fetch API** - HTTP client
+
+## Features
+
+✅ Activity logging form  
+✅ Daily statistics dashboard  
+✅ Activity history list  
+✅ Real-time API integration  
+✅ Responsive mobile design  
+✅ Smooth animations  
+
+## Backend Connection
+
+Frontend proxies requests to backend at `http://localhost:5000`
+
+See `vite.config.js` for proxy configuration.
