@@ -1,7 +1,7 @@
 {
   "name": "octofit-tracker-backend",
   "version": "1.0.0",
-  "description": "OctoFit Tracker - Fitness tracking API backend with Node.js, Express, and TypeScript",
+  "description": "OctoFit Tracker - Fitness tracking API backend with Node.js, Express, TypeScript, and MongoDB",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -12,13 +12,14 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "watch": "tsc --watch"
   },
-  "keywords": ["fitness", "tracker", "api", "health", "express", "typescript"],
+  "keywords": ["fitness", "tracker", "api", "health", "express", "typescript", "mongodb", "mongoose"],
   "author": "OctoFit Team",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
